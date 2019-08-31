@@ -1,0 +1,82 @@
+@font-face {
+  font-family: DS-TERM;
+  src: url(fonts/DS-TERM.TTF);
+}
+
+@font-face {
+  font-family: slkscr;
+  src: url(fonts/slkscr.TTF);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(fonts/Roboto-Thin.TTF);
+}
+
+body {
+    padding: 180px 0 0 40px;
+    background: #101010;
+}
+
+pre {
+    color: rgb(251, 174, 23);
+    font-size: 25px;
+    font-family: slkscr;
+
+}
+
+#title{
+  font-family: DS-TERM;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+#tagline {
+    color: #e80f37;
+    font-weight: 100;
+}
+
+#pow-txt {
+    display: none;
+    font-weight: 100;
+    color: #e3e3e3 !important;
+}
+
+#social{
+  color: rgb(251, 174, 23);
+  font-size: 25px;
+  font-family: Roboto-Thin;
+}
+
+a{
+  color: white;
+  font-size: 25px;
+  font-family: Roboto-Thin;
+  text-decoration: none;
+}
+
+#social {
+  position: fixed;
+  bottom: 2em;
+  right: auto;
+}
+
+#fb{
+  font-size: 25px;
+  color: #4267b2;
+}
+
+#ig{
+  font-size: 25px;
+  color: #dd2b7b;
+}
+
+#twt{
+  font-size: 25px;
+  color: #1da1f2;
+}
+
+#yt{
+  font-size: 25px;
+  color: #f00;
+}
